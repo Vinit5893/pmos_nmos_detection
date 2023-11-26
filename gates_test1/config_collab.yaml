@@ -1,0 +1,14 @@
+path: '/content/gdrive/My Drive/gates_test1' # dataset root dir
+train: train/images
+val: valid/images
+
+#classes
+names: 
+  0: and
+  1: nand
+  2: nor
+  3: not
+  4: or
+  5: xnor
+  6: xor
+

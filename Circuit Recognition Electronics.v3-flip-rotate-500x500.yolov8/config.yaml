@@ -1,0 +1,15 @@
+path: '/home/vinit-linux/yolov8_detection/pmos_nmos/Circuit Recognition Electronics.v3-flip-rotate-500x500.yolov8' # dataset root dir
+train: train/images
+val: valid/images
+
+#classes
+names: 
+  0: and
+  1: nand
+  2: nor
+  3: not
+  4: or
+  5: xnor
+  6: xor
+
+  

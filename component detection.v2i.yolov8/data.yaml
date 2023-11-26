@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 20
+names: ['and', 'bjt', 'cap', 'gnd', 'ic', 'idc', 'inductor', 'inverter', 'nand', 'nmos', 'nor', 'or', 'pmos', 'pnp_bjt', 'res', 'vdc', 'vdd', 'vsin', 'xnor', 'xor']
+
+roboflow:
+  workspace: crescent-university
+  project: component-detection-vygsu
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/crescent-university/component-detection-vygsu/dataset/2
